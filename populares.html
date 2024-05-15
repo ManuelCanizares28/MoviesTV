@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas Populares</title>
+    <link rel="stylesheet" href="populares.css">
+</head>
+<body>
+    <header>
+        <h1>MoviesTV</h1>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="cartelera.html">Cartelera</a></li>
+                    <li><a href="populares.html">Populares</a></li>
+                </ul>
+            </nav>
+            <input type="text" class="search-input" id="search-input" placeholder="Buscar....">
+            <button id="search-button">Buscar</button>
+        </div>
+    </header>
+    <div class="movies-container" id="movies-container"></div>
+    <div id="trailer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="trailer-video" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+        
+    </div>
+    <script src="trailer.js"></script>
+    <script src="searchpop.js"></script>
+</body>
+</html>
